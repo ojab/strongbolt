@@ -1,0 +1,7 @@
+sudo: false
+dist: trusty
+language: ruby
+rvm:
+  - 2.3
+
+script: bundle exec rspec
